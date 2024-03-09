@@ -6,12 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link href="/bootstrap-5.3.3-dist/css/bootstrap.css" rel="stylesheet">
+    <link href="/style.css" rel="stylesheet">
 
     <script src="/jquery.min.js"></script>
     <script src="/popper.min.js"></script>
     <script src="/bootstrap-5.3.3-dist/js/bootstrap.js"></script>
 </head>
-<body>
+<body  class="">
 @include('layout.navbar')
 <main class="">@yield('content')</main>
 @include('layout.footer')

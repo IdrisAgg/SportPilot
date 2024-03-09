@@ -1,0 +1,15 @@
+.card{
+    background-color: rgb(28, 31, 38);
+    
+}
+
+.circle{
+
+    border-radius: 50%;
+}
+
+.card-img-top{
+    border-radius: 10px;
+   
+}
+
